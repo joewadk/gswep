@@ -6,7 +6,7 @@
 #assume that order does not matter in note and magazine
 #trivial case where note greater in length than magazine
 
-#2n solution
+#o(m+n) solution
 #one loop to iterate through string 2 and initiate the map
 #separate loop to iterate through string 1, and decrement if the item's value in the map >0
 #if it isnt in the map or our count reached 0, return false and break
